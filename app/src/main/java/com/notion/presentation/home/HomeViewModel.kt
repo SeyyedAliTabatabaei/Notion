@@ -1,0 +1,1 @@
+package com.notion.presentation.homeimport com.notion.utils.NotionViewModelimport dagger.hilt.android.lifecycle.HiltViewModelimport javax.inject.Inject@HiltViewModelclass HomeViewModel @Inject constructor() : NotionViewModel(){}
