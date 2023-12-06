@@ -9,7 +9,7 @@ import com.notion.utils.NotionActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class MainActivity : NotionActivity() {
 
     lateinit var binding : ActivityMainBinding
     val viewModel : MainViewModel by viewModels()

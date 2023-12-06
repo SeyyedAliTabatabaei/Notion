@@ -1,0 +1,1 @@
+package com.notion.utilsobject Constants {    val regularFontPath = "fonts/yekan_bakh_regular.ttf"    val boldFontPath = "fonts/yekan_bakh_bold.ttf"    val lightFontPath = "fonts/yekan_bakh_light.ttf"    val semiBoldFontPath = "fonts/yekan_bakh_semi_bold.ttf"    val blackBoldFontPath = "fonts/yekan_bakh_semi_bold.ttf"}
