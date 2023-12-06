@@ -1,1 +1,1 @@
-package com.notionimport android.app.Applicationclass MyApplication : Application() {    override fun onCreate() {        super.onCreate()    }}
+package com.notionimport android.app.Applicationimport dagger.hilt.android.HiltAndroidApp@HiltAndroidAppclass MyApplication : Application() {    override fun onCreate() {        super.onCreate()    }}
