@@ -12,4 +12,10 @@
     <string name="go_to_shop">رفتن به فروشگاه</string>
     <string name="parent_task">تسک های والدین</string>
     <string name="games">بازی ها</string>
+    <string name="investment">سرمایه گذاری</string>
+    <string name="saving">پس انداز</string>
+    <string name="participate_in_challenge">شرکت در این چالش</string>
+    <string name="coin_required">سکه مورد نیاز:</string>
+    <string name="user_challenge">چالش فردی</string>
+    <string name="group">گروه</string>
 </resources>
