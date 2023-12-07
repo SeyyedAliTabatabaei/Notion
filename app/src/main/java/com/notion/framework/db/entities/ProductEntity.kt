@@ -1,0 +1,1 @@
+package com.notion.framework.db.entitiesdata class ProductEntity(    val id : Int ,    val icon : Int ,    val name : String ,    val buyPrice : Long ,    val sellerPrice : Long)
