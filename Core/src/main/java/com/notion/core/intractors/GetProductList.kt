@@ -1,0 +1,1 @@
+package com.notion.core.intractorsimport com.notion.core.data.UserRepositoryimport com.notion.core.domain.Productimport com.notion.core.helper.DataStateimport kotlinx.coroutines.flow.Flowclass GetProductList(private val userRepository: UserRepository) {    suspend operator fun invoke() : Flow<DataState<List<Product>>> = userRepository.getProductList()}

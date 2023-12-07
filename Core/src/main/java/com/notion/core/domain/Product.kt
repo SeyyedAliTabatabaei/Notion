@@ -1,0 +1,1 @@
+package com.notion.core.domaindata class Product(    val id : Int ,    val icon : Int ,    val name : String ,    val buyPrice : Long ,    val sellerPrice : Long)

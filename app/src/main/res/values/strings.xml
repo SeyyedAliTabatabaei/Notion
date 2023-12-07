@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Notion</string>
+    <string name="app_name">هوش مال</string>
+
+    <string name="name">سیدعلی طباطبایی</string>
+    <string name="date">شنبه-۱۵ آذر</string>
+    <string name="inventory">موجودی شما(تومان)</string>
+    <string name="your_gem">دارایی جم</string>
+    <string name="your_coin">دارایی سکه</string>
+    <string name="seller">فروشنده</string>
+    <string name="buy_new_product">محصولات جدید رو خریداری کن</string>
+    <string name="your_shop">فروشگاه شما</string>
+    <string name="go_to_shop">رفتن به فروشگاه</string>
+    <string name="parent_task">تسک های والدین</string>
+    <string name="games">بازی ها</string>
+    <string name="investment">سرمایه گذاری</string>
+    <string name="saving">پس انداز</string>
+    <string name="participate_in_challenge">شرکت در این چالش</string>
+    <string name="coin_required">سکه مورد نیاز:</string>
+    <string name="user_challenge">چالش فردی</string>
+    <string name="group">گروه</string>
 </resources>

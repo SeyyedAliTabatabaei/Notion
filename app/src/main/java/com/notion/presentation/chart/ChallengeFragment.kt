@@ -1,0 +1,1 @@
+package com.notion.presentation.chartimport com.notion.utils.NotionFragmentimport dagger.hilt.android.AndroidEntryPoint@AndroidEntryPointclass ChallengeFragment : NotionFragment() {}
