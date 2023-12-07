@@ -47,14 +47,14 @@ class MainActivity : NotionActivity() {
     private fun selectItem(item : BottomNavigationItem) {
         when(item){
             BottomNavigationItem.SHOP -> {
-//                navHost.findNavController().setGraph(R.navigation.nav_home)
+                navHost.findNavController().setGraph(R.navigation.nav_home)
 
                 binding.ivMainProfile.setImageDrawable(getDrawable(R.drawable.ic_profile))
                 binding.ivMainChart.setImageDrawable(getDrawable(R.drawable.ic_chart))
 
             }
             BottomNavigationItem.PROFILE -> {
-//                navHost.findNavController().setGraph(R.navigation.nav_profile)
+                navHost.findNavController().setGraph(R.navigation.nav_profile)
 
                 binding.ivMainProfile.setImageDrawable(getDrawable(R.drawable.ic_profile_selected))
                 binding.ivMainChart.setImageDrawable(getDrawable(R.drawable.ic_chart))

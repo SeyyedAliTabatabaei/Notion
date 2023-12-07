@@ -1,0 +1,1 @@
+package com.notion.presentation.profileimport com.notion.utils.NotionViewModelimport dagger.hilt.android.lifecycle.HiltViewModelimport javax.inject.Inject@HiltViewModelclass ProfileViewModel @Inject constructor() : NotionViewModel() {}
