@@ -1,4 +1,6 @@
 # Notion Team
+- Android developer : Seyyed Ali Tabatabaei
+- UI/UX Designer : Mohammad Reza Afchangi
 
 
 
