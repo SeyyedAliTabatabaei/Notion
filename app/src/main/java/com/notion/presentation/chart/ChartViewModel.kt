@@ -1,0 +1,1 @@
+package com.notion.presentation.chartimport com.notion.utils.NotionViewModelimport dagger.hilt.android.lifecycle.HiltViewModelimport javax.inject.Inject@HiltViewModelclass ChartViewModel @Inject constructor() : NotionViewModel() {}

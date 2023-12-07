@@ -61,7 +61,7 @@ class MainActivity : NotionActivity() {
 
             }
             BottomNavigationItem.CHART -> {
-//                navHost.findNavController().setGraph(R.navigation.nav_chart)
+                navHost.findNavController().setGraph(R.navigation.nav_chart)
 
                 binding.ivMainProfile.setImageDrawable(getDrawable(R.drawable.ic_profile))
                 binding.ivMainChart.setImageDrawable(getDrawable(R.drawable.ic_chart_selected))
