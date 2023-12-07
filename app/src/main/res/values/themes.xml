@@ -2,11 +2,15 @@
     <!-- Base application theme. -->
     <style name="BaseTheme.Notion" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/orange</item>
-        <item name="backgroundColor">@color/gray_light</item>
+        <item name="backgroundLayout">@color/gray_light</item>
         <item name="android:textColor">@color/gray_dark</item>
         <item name="android:textColorSecondary">@color/gray_dar2</item>
         <item name="backgroundCard">@color/white</item>
+        <item name="cardStrokColor">@color/gray_dar4</item>
+        <item name="colorSecondary">?colorPrimary</item>
 
+        <item name="android:statusBarColor">?attr/backgroundLayout</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
 </resources>

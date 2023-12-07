@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Notion</string>
+
+    <string name="name">سیدعلی طباطبایی</string>
+    <string name="date">شنبه-۱۵ آذر</string>
+    <string name="inventory">موجودی شما(تومان)</string>
+    <string name="your_gem">دارایی جم</string>
+    <string name="your_coin">دارایی سکه</string>
+    <string name="seller">فروشنده</string>
+    <string name="buy_new_product">محصولات جدید رو خریداری کن</string>
+    <string name="your_shop">فروشگاه شما</string>
+    <string name="go_to_shop">رفتن به فروشگاه</string>
 </resources>
