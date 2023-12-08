@@ -1,0 +1,1 @@
+package com.notion.presentation.groupDetailsimport com.notion.utils.NotionViewModelimport dagger.hilt.android.AndroidEntryPointimport dagger.hilt.android.lifecycle.HiltViewModelimport javax.inject.Inject@HiltViewModelclass GroupDetailsViewModel @Inject constructor() : NotionViewModel() {}

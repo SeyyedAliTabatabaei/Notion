@@ -2,7 +2,10 @@ package com.notion.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
+import androidx.core.view.updateLayoutParams
+import androidx.fragment.app.FragmentContainerView
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import com.notion.R
@@ -25,6 +28,22 @@ class MainActivity : NotionActivity() {
         setContentView(binding.root)
 
         initView()
+
+        navHost.navController.addOnDestinationChangedListener { navControler, navDestination, _ ->
+            when (navDestination.id) {
+                R.id.homeFragment -> {
+                    hideBottomNavigation(false)
+                }
+                R.id.chartFragment -> {
+                    hideBottomNavigation(false)
+                }
+                R.id.profileFragment -> {
+                    hideBottomNavigation(false)
+
+                }
+                else -> hideBottomNavigation(true)
+            }
+        }
     }
 
     private fun initView() {
@@ -68,6 +87,16 @@ class MainActivity : NotionActivity() {
             }
         }
 
+    }
+
+    private fun hideBottomNavigation(hide : Boolean) {
+//        binding.ivMainChart.visibility = if (hide) View.GONE else View.VISIBLE
+//        binding.ivMainProfile.visibility = if (hide) View.GONE else View.VISIBLE
+//        binding.ivMainShop.visibility = if (hide) View.GONE else View.VISIBLE
+//        binding.ivMainBgBottomNavigation.visibility = if (hide) View.GONE else View.VISIBLE
+//        binding.fcvMainContainer.layoutParams.apply {
+//
+//        }
     }
 
     enum class BottomNavigationItem{
