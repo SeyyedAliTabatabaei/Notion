@@ -1,4 +1,4 @@
-# Notion Team
+# Notion Team In MPM11 (11th Mobile Programming Marathon)
 - Android developer : Seyyed Ali Tabatabaei
 - UI/UX Designer : Mohammad Reza Afchangi
 
