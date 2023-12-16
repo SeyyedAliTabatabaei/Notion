@@ -5,8 +5,7 @@
 
 
 ## Download apk
-[http://git.sharifict.ir/alitabatabaei/notion/-/raw/development/release_app/app-Dev-debug.apk?ref_type=heads
-](https://github.com/SeyyedAliTabatabaei/Notion/raw/member_challenge_group_details/release-app/app-Dev-debug.apk)
+https://github.com/SeyyedAliTabatabaei/Notion/raw/member_challenge_group_details/release-app/app-Dev-debug.apk
 
 ## This project use
 - Kotlin
